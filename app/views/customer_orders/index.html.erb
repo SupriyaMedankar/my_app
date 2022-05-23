@@ -1,0 +1,12 @@
+<div>
+  <div>Customer Orders</div>
+  <table>
+    <%debugger%>
+    <% @orders.each do |order| %>
+      <tr>
+        <td><%= order.name%></td>
+        <td><%= order.order_status%></td>
+      </tr>
+    <%end %>
+  </table>
+</div>

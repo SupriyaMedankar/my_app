@@ -1,0 +1,20 @@
+# database.yml for circle ci environment
+development:
+  adapter: mysql2
+  database: demo
+  username: root
+  host: localhost
+  pool: 5
+  password: password
+  timeout: 5000
+  reconnect: true
+
+test:
+  adapter: mysql2
+  database: demo
+  host: localhost
+  username: root
+  password: password
+  pool: 5
+  timeout: 5000
+  reconnect: true
